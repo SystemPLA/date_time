@@ -14,10 +14,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_cancel"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                app:cornerRadius="10sp"
                 android:text="Отмена"
                 android:layout_marginStart="8sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -25,10 +26,11 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_save"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                app:cornerRadius="10sp"
                 android:text="Сохранить"
                 android:layout_marginStart="8sp"
                 android:layout_marginEnd="8sp"
